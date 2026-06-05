@@ -1,53 +1,65 @@
-Kavic House Recovery — Static site
+# Kavic House Recovery - Nuxt 3
 
-This repository contains a single-page static site. It is configured for direct deployment to Vercel using the provided `index.html` and `vercel.json`.
+This project has been migrated from a static HTML file to a Nuxt 3 application.
 
-Important files
-- `index.html` — root page (full site markup)
-- `recovery-house-website.html` — original file (kept for reference)
-- `vercel.json` — Vercel static routing/build config
-- `KavicHouseLogo_v2.jpeg` (or similar) — ensure any logo/image assets referenced are committed to the repo root or correct path
+## Tech stack
 
-Quick deploy (recommended) — Vercel CLI
-Prerequisites: Node/npm installed locally.
+- Nuxt 3
+- Vue 3
+- Vite (via Nuxt)
+- Vercel deployment target
 
-1) Install Vercel CLI (if you don't have it):
+## Project structure
 
-```bash
-npm install -g vercel
-```
+- `pages/index.vue` - main landing page
+- `assets/css/site.css` - migrated site styles
+- `public/KavicHouseLogo_v2.jpeg` - static logo asset
+- `nuxt.config.ts` - Nuxt configuration and Vercel Nitro preset
 
-2) Log in and deploy (follow interactive prompts):
+## Local development
 
-```bash
-vercel login
-vercel --prod
-```
-
-The CLI will read `vercel.json` and serve `index.html` at the site root.
-
-Deploy via Git / Vercel dashboard (no CLI required)
-1) Push this repo to a Git provider (GitHub, GitLab, Bitbucket).
-2) In the Vercel dashboard, choose "New Project" and import the repo.
-3) Vercel will detect a static site — confirm and deploy. `vercel.json` will control routing.
-
-Local testing
-- Open `index.html` in your browser (double-click) for a quick preview.
-- For a simple local static server:
+1. Install dependencies:
 
 ```bash
-# using Python 3
-python3 -m http.server 8080
-# then open http://localhost:8080/index.html
+npm install
 ```
 
-Notes & troubleshooting
-- If `npm` or `vercel` is not found, install Node.js from https://nodejs.org/ or use the GitHub/Vercel dashboard flow.
-- Confirm any referenced image files (e.g. `KavicHouseLogo_v2.jpeg`) exist in the repo.
+2. Start dev server:
 
-If you want, I can:
-- Run the deploy for you (requires `npm`/`vercel` available in the environment), or
-- Create a GitHub Action that pushes or notifies Vercel on push.
+```bash
+npm run dev
+```
 
-# KavicRecoveryHouse
-# KavicRecoveryHouse
+3. Open:
+
+```text
+http://localhost:3000
+```
+
+## Production build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Deploy to Vercel
+
+This repo is configured for Nuxt on Vercel.
+
+- `vercel.json` uses framework detection for Nuxt.
+- Nitro preset in `nuxt.config.ts` is set to `vercel`.
+
+You can deploy with either:
+
+1. Vercel dashboard by importing the repository.
+2. Vercel CLI:
+
+```bash
+npx vercel --prod
+```
+
+## Notes
+
+- Legacy static HTML files were removed to keep this repository Nuxt-only.
+- Form submit behavior currently mirrors the static prototype (local success-state UI only).
