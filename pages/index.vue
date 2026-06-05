@@ -96,10 +96,10 @@
             <h2 class="section-title reveal reveal-d1">Built on<br><em>compassion</em><br>and community.</h2>
 
             <p class="section-body reveal reveal-d2">
-              [Placeholder] Kavic House Recovery was founded with one simple belief — that every person deserves a real chance at a healthy, meaningful life free from addiction. We provide more than a roof: we provide a community, a structure, and a family that walks alongside you.
+              Kavic House Recovery was built on a simple belief — that every person deserves a real chance at a healthy, meaningful life free from addiction. We're not just a place to stay; we're a structured community where residents find accountability, connection, and hope during one of life's most challenging transitions.
             </p>
             <p class="section-body reveal reveal-d3" style="margin-top:1rem;">
-              Our team includes individuals with lived experience in addiction and recovery. We know what this road looks like, and we're here to walk it with you — one day at a time.
+              Our team includes individuals with lived experience in addiction and recovery. We know firsthand what this road looks like — the hard days, the small victories, and everything in between. We're here to walk it with you, one day at a time, with zero judgment and genuine care.
             </p>
 
             <div class="about-values reveal reveal-d4">
@@ -112,7 +112,7 @@
             </div>
 
             <div class="about-quote reveal reveal-d5">
-              <p>"[Placeholder quote from founder or resident — something personal and heartfelt that speaks to the spirit of the house.]"</p>
+              <p>"Recovery doesn't happen in isolation — it happens in community. We created Kavic House to be the kind of place we wish had existed when we needed it most."</p>
             </div>
 
             <div class="about-cta reveal reveal-d6">
@@ -132,7 +132,7 @@
           </div>
           <div class="services-intro">
             <p>
-              [Placeholder] We offer a range of supports designed to help residents thrive in early recovery. From safe housing to life skills, our programs are tailored to meet you where you are and help you move forward.
+              Early recovery is about more than staying sober — it's about rebuilding a life. Our programs are designed to give residents the stability, skills, and community they need to move forward with confidence.
             </p>
           </div>
         </div>
@@ -145,7 +145,7 @@
               </svg>
             </div>
             <h3>Sober Living Housing</h3>
-            <p>[Placeholder] Safe, clean, and structured housing in a supportive environment. Residents live alongside peers in recovery, fostering accountability and connection.</p>
+            <p>Safe, clean, and structured homes in Nanaimo where residents share space with peers in recovery. A drug- and alcohol-free environment built on mutual respect, clear expectations, and genuine support.</p>
             <a href="#contact" class="service-card-link">Learn more →</a>
           </div>
 
@@ -156,7 +156,7 @@
               </svg>
             </div>
             <h3>Peer Support &amp; Mentorship</h3>
-            <p>[Placeholder] Connect with others who understand your journey. Our peer support network means you'll never have to face the hard days alone.</p>
+            <p>Connect with staff and housemates who have walked a similar road. When the hard days come — and they do — you'll have people around you who truly understand and who are invested in your success.</p>
             <a href="#contact" class="service-card-link">Learn more →</a>
           </div>
 
@@ -167,7 +167,7 @@
               </svg>
             </div>
             <h3>Life Skills Development</h3>
-            <p>[Placeholder] Practical skills for everyday living — budgeting, meal planning, employment readiness, and more — so you can build a stable and independent life.</p>
+            <p>Addiction often puts everyday life on hold. We help residents rebuild practical skills — managing finances, preparing meals, pursuing employment, and navigating daily responsibilities — so independence becomes real again.</p>
             <a href="#contact" class="service-card-link">Learn more →</a>
           </div>
 
@@ -178,7 +178,7 @@
               </svg>
             </div>
             <h3>Intake &amp; Case Support</h3>
-            <p>[Placeholder] Not sure where to start? Our intake process is compassionate and easy to navigate. We'll help connect you or your loved one with the right supports right away.</p>
+            <p>Not sure where to start? Our intake process is straightforward and judgment-free. We'll take time to understand your situation and help connect you — or your loved one — with the right level of support without delay.</p>
             <a href="#contact" class="service-card-link">Learn more →</a>
           </div>
 
@@ -189,7 +189,7 @@
               </svg>
             </div>
             <h3>Structured Daily Programming</h3>
-            <p>[Placeholder] Routine is powerful in recovery. Our daily structure includes house meetings, chore schedules, curfews, and recovery group attendance to support lasting sobriety.</p>
+            <p>Routine is one of the most powerful tools in early recovery. Residents follow a daily structure that includes house meetings, shared responsibilities, curfews, and attendance at recovery groups — creating the rhythm and stability that lasting sobriety requires.</p>
             <a href="#contact" class="service-card-link">Learn more →</a>
           </div>
 
@@ -200,7 +200,7 @@
               </svg>
             </div>
             <h3>Family &amp; Community Resources</h3>
-            <p>[Placeholder] Recovery impacts the whole family. We connect residents and their loved ones with community resources, referrals, and guidance throughout the process.</p>
+            <p>Addiction affects the whole family, not just the individual. We connect residents and their loved ones with Nanaimo-area resources, referrals to treatment providers, and guidance at every stage of the recovery journey.</p>
             <a href="#contact" class="service-card-link">Learn more →</a>
           </div>
         </div>
@@ -209,8 +209,8 @@
 
     <div class="testimonial-band">
       <blockquote>
-        <p>"[Placeholder — a meaningful quote from a past resident, or a mission statement from the founder that speaks to why this house exists and who it serves.]"</p>
-        <cite>— Name, Former Resident</cite>
+        <p>"Asking for help was the hardest thing I ever did. Kavic House gave me the structure I needed, the community I didn't know I was missing, and the belief that a different life was actually possible."</p>
+        <cite>— Former Resident, Nanaimo BC</cite>
       </blockquote>
     </div>
 
@@ -233,7 +233,7 @@
                 </div>
                 <div class="contact-detail-text">
                   <strong>Phone</strong>
-                  <p>(250) 000-0000</p>
+                  <p>(250) 797-8484</p>
                 </div>
               </div>
 
@@ -245,7 +245,7 @@
                 </div>
                 <div class="contact-detail-text">
                   <strong>Email</strong>
-                  <p>hello@kavichouserecovery.ca</p>
+                  <p>CJ@kavichouserecovery.ca</p>
                 </div>
               </div>
 
@@ -344,7 +344,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2025 Kavic House Recovery. All rights reserved.</span>
+        <span>© 2026 Kavic House Recovery. All rights reserved.</span>
         <span>Made with care in Nanaimo, BC</span>
       </div>
     </footer>

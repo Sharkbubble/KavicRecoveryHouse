@@ -59,6 +59,10 @@ You can deploy with either:
 npx vercel --prod
 ```
 
+## Docs
+
+- [docs/CLIENT_DNS_SETUP.md](docs/CLIENT_DNS_SETUP.md) — step-by-step guide for the client to configure GoDaddy DNS and Resend domain verification
+
 ## Contact form (Resend)
 
 The contact form at `#contact` sends email via [Resend](https://resend.com). The server route is at `server/api/contact.post.ts`.
