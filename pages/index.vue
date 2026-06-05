@@ -30,7 +30,7 @@
 
     <section id="home">
       <div class="hero-img-wrap">
-        <img src="/hero.png" alt="Kavic House Recovery" class="hero-img">
+        <img src="/hero2.png" alt="Kavic House Recovery" class="hero-img">
         <a href="#contact" class="hero-cta">Reach Out Today</a>
       </div>
 
