@@ -29,11 +29,12 @@
     </div>
 
     <section id="home">
-      <div class="hero-logo">
-        <img src="/KavicHouseLogo_v2.jpeg" alt="Our Logo">
+      <div class="hero-img-wrap">
+        <img src="/hero.png" alt="Kavic House Recovery" class="hero-img">
+        <a href="#contact" class="hero-cta">Reach Out Today</a>
       </div>
 
-      <div class="hero-left">
+      <div class="hero-content">
         <div class="hero-eyebrow">
           <span>Nanaimo, BC — Recovery House</span>
         </div>
@@ -47,16 +48,6 @@
         <p class="hero-subtitle">
           A safe, structured, and compassionate sober living community for those committed to building a life in recovery. You don't have to do this alone.
         </p>
-
-        <div class="hero-actions">
-          <a href="#contact" class="btn-primary">Reach Out Today</a>
-          <a href="#about" class="btn-ghost">
-            Learn About Us
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M3 8h10M9 4l4 4-4 4"/>
-            </svg>
-          </a>
-        </div>
 
         <div class="hero-stats">
           <div class="stat-item">
