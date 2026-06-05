@@ -9,7 +9,7 @@ export default defineEventHandler(async (event) => {
   }
 
   const resend = new Resend(process.env.RESEND_API_KEY)
-  const to = process.env.CONTACT_EMAIL || 'hello@kavichouserecovery.ca'
+  const to = process.env.CONTACT_EMAIL || 'cj@kavichouserecovery.ca'
 
   await resend.emails.send({
     from: 'Kavic House Website <onboarding@resend.dev>',
