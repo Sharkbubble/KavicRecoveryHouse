@@ -59,7 +59,32 @@ You can deploy with either:
 npx vercel --prod
 ```
 
+## Contact form (Resend)
+
+The contact form at `#contact` sends email via [Resend](https://resend.com). The server route is at `server/api/contact.post.ts`.
+
+### Setup
+
+1. Sign up at [resend.com](https://resend.com) and create an API key.
+
+2. Add these environment variables in your Vercel project settings (Settings → Environment Variables):
+
+   | Variable | Description |
+   |----------|-------------|
+   | `RESEND_API_KEY` | API key from the Resend dashboard |
+   | `CONTACT_EMAIL` | Inbox to receive inquiries (defaults to `hello@kavichouserecovery.ca`) |
+
+3. For local testing, create a `.env` file in the project root:
+
+   ```env
+   RESEND_API_KEY=re_your_key_here
+   CONTACT_EMAIL=you@example.com
+   ```
+
+### Sender address
+
+The `from` address is currently `onboarding@resend.dev` (Resend's shared test sender — no domain verification needed). When ready, verify `kavichouserecovery.ca` in the Resend dashboard and update the `from` field in `server/api/contact.post.ts` to something like `contact@kavichouserecovery.ca`.
+
 ## Notes
 
 - Legacy static HTML files were removed to keep this repository Nuxt-only.
-- Form submit behavior currently mirrors the static prototype (local success-state UI only).

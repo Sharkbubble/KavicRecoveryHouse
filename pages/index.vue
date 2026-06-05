@@ -78,7 +78,7 @@
     <section id="about">
       <div class="section-inner">
         <div class="about-grid">
-          <div class="about-image-wrapper">
+          <div class="about-image-wrapper reveal">
             <div class="about-image-main">
               <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
                 <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/>
@@ -92,17 +92,17 @@
           </div>
 
           <div class="about-content">
-            <div class="section-label"><span>About Us</span></div>
-            <h2 class="section-title">Built on<br><em>compassion</em><br>and community.</h2>
+            <div class="section-label reveal"><span>About Us</span></div>
+            <h2 class="section-title reveal reveal-d1">Built on<br><em>compassion</em><br>and community.</h2>
 
-            <p class="section-body">
+            <p class="section-body reveal reveal-d2">
               [Placeholder] Kavic House Recovery was founded with one simple belief — that every person deserves a real chance at a healthy, meaningful life free from addiction. We provide more than a roof: we provide a community, a structure, and a family that walks alongside you.
             </p>
-            <p class="section-body" style="margin-top:1rem;">
+            <p class="section-body reveal reveal-d3" style="margin-top:1rem;">
               Our team includes individuals with lived experience in addiction and recovery. We know what this road looks like, and we're here to walk it with you — one day at a time.
             </p>
 
-            <div class="about-values">
+            <div class="about-values reveal reveal-d4">
               <div class="value-pill"><div class="value-pill-dot"></div><span>Accountability</span></div>
               <div class="value-pill"><div class="value-pill-dot"></div><span>Peer Support</span></div>
               <div class="value-pill"><div class="value-pill-dot"></div><span>Structure &amp; Routine</span></div>
@@ -111,11 +111,11 @@
               <div class="value-pill"><div class="value-pill-dot"></div><span>Community</span></div>
             </div>
 
-            <div class="about-quote">
+            <div class="about-quote reveal reveal-d5">
               <p>"[Placeholder quote from founder or resident — something personal and heartfelt that speaks to the spirit of the house.]"</p>
             </div>
 
-            <div class="about-cta">
+            <div class="about-cta reveal reveal-d6">
               <a href="#contact" class="btn-primary">Get in Touch</a>
             </div>
           </div>
@@ -125,7 +125,7 @@
 
     <section id="services">
       <div class="section-inner">
-        <div class="services-header">
+        <div class="services-header reveal">
           <div>
             <div class="section-label"><span>Our Services</span></div>
             <h2 class="section-title">Everything you need to<br><em>build a strong foundation.</em></h2>
@@ -138,7 +138,7 @@
         </div>
 
         <div class="services-grid">
-          <div class="service-card">
+          <div class="service-card reveal">
             <div class="service-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
@@ -149,7 +149,7 @@
             <a href="#contact" class="service-card-link">Learn more →</a>
           </div>
 
-          <div class="service-card">
+          <div class="service-card reveal reveal-d1">
             <div class="service-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"/>
@@ -160,7 +160,7 @@
             <a href="#contact" class="service-card-link">Learn more →</a>
           </div>
 
-          <div class="service-card">
+          <div class="service-card reveal reveal-d2">
             <div class="service-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/>
@@ -171,7 +171,7 @@
             <a href="#contact" class="service-card-link">Learn more →</a>
           </div>
 
-          <div class="service-card">
+          <div class="service-card reveal reveal-d1">
             <div class="service-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 0118 16.92z"/>
@@ -182,7 +182,7 @@
             <a href="#contact" class="service-card-link">Learn more →</a>
           </div>
 
-          <div class="service-card">
+          <div class="service-card reveal reveal-d2">
             <div class="service-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/>
@@ -193,7 +193,7 @@
             <a href="#contact" class="service-card-link">Learn more →</a>
           </div>
 
-          <div class="service-card">
+          <div class="service-card reveal reveal-d3">
             <div class="service-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
@@ -217,7 +217,7 @@
     <section id="contact">
       <div class="section-inner">
         <div class="contact-grid">
-          <div class="contact-info">
+          <div class="contact-info reveal">
             <div class="section-label"><span>Contact Us</span></div>
             <h2>Ready to take the<br><em>first step?</em></h2>
             <p>
@@ -263,7 +263,7 @@
             </div>
           </div>
 
-          <div class="contact-form-panel">
+          <div class="contact-form-panel reveal reveal-d2">
             <h3>Send Us a Message</h3>
             <p>We typically respond within 24 hours.</p>
 
@@ -305,9 +305,10 @@
                 <textarea id="message" v-model="form.message" placeholder="Tell us a little about your situation, or any questions you have…"></textarea>
               </div>
 
-              <button type="submit" class="form-submit" :disabled="isSubmitted">
-                {{ isSubmitted ? 'Message Sent ✓' : 'Send Message' }}
+              <button type="submit" class="form-submit" :disabled="isSubmitted || isLoading">
+                {{ isSubmitted ? 'Message Sent ✓' : isLoading ? 'Sending…' : 'Send Message' }}
               </button>
+              <p v-if="isError" class="form-error">Something went wrong. Please try again or email us directly.</p>
               <p class="form-note">Your privacy matters. All inquiries are kept completely confidential.</p>
             </form>
           </div>
@@ -355,7 +356,10 @@ import { onBeforeUnmount, onMounted, reactive, ref } from 'vue';
 
 const isScrolled = ref(false);
 const isMobileNavOpen = ref(false);
+let revealObserver: IntersectionObserver | null = null;
 const isSubmitted = ref(false);
+const isLoading = ref(false);
+const isError = ref(false);
 
 const form = reactive({
   firstName: '',
@@ -387,20 +391,45 @@ const resetForm = () => {
   form.message = '';
 };
 
-const handleSubmit = () => {
-  isSubmitted.value = true;
-  setTimeout(() => {
-    isSubmitted.value = false;
-    resetForm();
-  }, 3000);
+const handleSubmit = async () => {
+  isError.value = false;
+  isLoading.value = true;
+  try {
+    await $fetch('/api/contact', {
+      method: 'POST',
+      body: { ...form },
+    });
+    isSubmitted.value = true;
+    setTimeout(() => {
+      isSubmitted.value = false;
+      resetForm();
+    }, 4000);
+  } catch {
+    isError.value = true;
+    setTimeout(() => { isError.value = false; }, 5000);
+  } finally {
+    isLoading.value = false;
+  }
 };
 
 onMounted(() => {
   onScroll();
   window.addEventListener('scroll', onScroll);
+
+  revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in-view');
+        revealObserver?.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.reveal').forEach(el => revealObserver?.observe(el));
 });
 
 onBeforeUnmount(() => {
   window.removeEventListener('scroll', onScroll);
+  revealObserver?.disconnect();
 });
 </script>
