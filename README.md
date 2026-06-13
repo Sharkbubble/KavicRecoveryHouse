@@ -1,94 +1,71 @@
-# Kavic House Recovery - Nuxt 3
+# Kavic House Recovery
 
-This project has been migrated from a static HTML file to a Nuxt 3 application.
+Marketing website for **Kavic House Recovery**, a safe, structured sober living community in Nanaimo, BC. Single-page Nuxt 3 application deployed on Vercel.
+
+🌐 **Live site:** [kavichouserecovery.ca](https://kavichouserecovery.ca)
 
 ## Tech stack
 
-- Nuxt 3
-- Vue 3
-- Vite (via Nuxt)
-- Vercel deployment target
+- [Nuxt 3](https://nuxt.com/) (Vue 3, Vite, Nitro)
+- [Resend](https://resend.com/) for contact-form email delivery
+- Deployed on [Vercel](https://vercel.com/)
 
 ## Project structure
 
-- `pages/index.vue` - main landing page
-- `assets/css/site.css` - migrated site styles
-- `public/KavicHouseLogo_v2.jpeg` - static logo asset
-- `nuxt.config.ts` - Nuxt configuration and Vercel Nitro preset
+```
+pages/index.vue            The entire page (nav, hero, about, services, contact, footer)
+assets/css/site.css        All styling — global, design tokens in :root
+server/api/contact.post.ts Server route that emails contact-form submissions via Resend
+nuxt.config.ts             Head/meta, fonts, global CSS, Vercel Nitro preset
+public/                    Static assets (logo, hero images)
+```
+
+The whole site is one page; in-page anchors (`#home`, `#about`, `#services`, `#contact`) handle navigation. There is no database or CMS.
 
 ## Local development
 
-1. Install dependencies:
+```bash
+npm install      # install dependencies
+npm run dev      # dev server at http://localhost:3000
+```
+
+To test the contact form locally, create a `.env` file (see [Environment variables](#environment-variables)).
+
+## Build & deploy
 
 ```bash
-npm install
+npm run build    # production build (Nitro / Vercel preset)
+npm run preview  # preview the production build locally
 ```
 
-2. Start dev server:
-
-```bash
-npm run dev
-```
-
-3. Open:
-
-```text
-http://localhost:3000
-```
-
-## Production build
-
-```bash
-npm run build
-npm run preview
-```
-
-## Deploy to Vercel
-
-This repo is configured for Nuxt on Vercel.
-
-- `vercel.json` uses framework detection for Nuxt.
-- Nitro preset in `nuxt.config.ts` is set to `vercel`.
-
-You can deploy with either:
-
-1. Vercel dashboard by importing the repository.
-2. Vercel CLI:
+Deployment is automatic via Vercel on push to `main`. To deploy manually:
 
 ```bash
 npx vercel --prod
 ```
 
-## Docs
+`vercel.json` enables Nuxt framework detection and the Nitro `vercel` preset is set in `nuxt.config.ts`.
 
-- [docs/CLIENT_DNS_SETUP.md](docs/CLIENT_DNS_SETUP.md) — step-by-step guide for the client to configure GoDaddy DNS and Resend domain verification
+## Environment variables
 
-## Contact form (Resend)
+Set these in **Vercel → Project Settings → Environment Variables** (and in a local `.env` for development):
 
-The contact form at `#contact` sends email via [Resend](https://resend.com). The server route is at `server/api/contact.post.ts`.
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `RESEND_API_KEY` | Yes | API key from the [Resend dashboard](https://resend.com). Without it the contact form returns an error. |
+| `CONTACT_EMAIL` | No | Inbox that receives inquiries. Defaults to `cj@kavichouserecovery.ca`. |
 
-### Setup
+Example `.env`:
 
-1. Sign up at [resend.com](https://resend.com) and create an API key.
+```env
+RESEND_API_KEY=re_your_key_here
+CONTACT_EMAIL=you@example.com
+```
 
-2. Add these environment variables in your Vercel project settings (Settings → Environment Variables):
+`.env` files are gitignored — never commit secrets.
 
-   | Variable | Description |
-   |----------|-------------|
-   | `RESEND_API_KEY` | API key from the Resend dashboard |
-   | `CONTACT_EMAIL` | Inbox to receive inquiries (defaults to `hello@kavichouserecovery.ca`) |
+## Contact form
 
-3. For local testing, create a `.env` file in the project root:
+The form at `#contact` posts to `server/api/contact.post.ts`, which sends an email via Resend with the visitor's email set as the reply-to address.
 
-   ```env
-   RESEND_API_KEY=re_your_key_here
-   CONTACT_EMAIL=you@example.com
-   ```
-
-### Sender address
-
-The `from` address is currently `onboarding@resend.dev` (Resend's shared test sender — no domain verification needed). When ready, verify `kavichouserecovery.ca` in the Resend dashboard and update the `from` field in `server/api/contact.post.ts` to something like `contact@kavichouserecovery.ca`.
-
-## Notes
-
-- Legacy static HTML files were removed to keep this repository Nuxt-only.
+The sender (`from`) is currently Resend's shared test address, `onboarding@resend.dev`, which requires no domain verification. Once `kavichouserecovery.ca` is verified in Resend, update the `from` field in `server/api/contact.post.ts` to a branded address (e.g. `Cj@kavichouserecovery.ca`) and redeploy.
