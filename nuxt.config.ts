@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Kavic House Recovery',
+      htmlAttrs: { lang: 'en' },
       meta: [
         {
           name: 'viewport',
@@ -12,9 +13,34 @@ export default defineNuxtConfig({
         {
           name: 'description',
           content: 'A safe, structured, and compassionate sober living community in Nanaimo, BC.'
-        }
+        },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:site_name', content: 'Kavic House Recovery' },
+        { property: 'og:title', content: 'Kavic House Recovery' },
+        {
+          property: 'og:description',
+          content: 'A safe, structured, and compassionate sober living community in Nanaimo, BC.'
+        },
+        { property: 'og:url', content: 'https://kavichouserecovery.ca' },
+        { property: 'og:image', content: 'https://kavichouserecovery.ca/KavicHouseLogo_v2.jpeg' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Kavic House Recovery' },
+        {
+          name: 'twitter:description',
+          content: 'A safe, structured, and compassionate sober living community in Nanaimo, BC.'
+        },
+        { name: 'twitter:image', content: 'https://kavichouserecovery.ca/KavicHouseLogo_v2.jpeg' }
       ],
       link: [
+        {
+          rel: 'icon',
+          type: 'image/jpeg',
+          href: '/KavicHouseLogo_v2.jpeg'
+        },
+        {
+          rel: 'apple-touch-icon',
+          href: '/KavicHouseLogo_v2.jpeg'
+        },
         {
           rel: 'preconnect',
           href: 'https://fonts.googleapis.com'
