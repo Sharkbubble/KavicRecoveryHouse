@@ -927,4 +927,10 @@
     .section-inner { padding: 4rem 1.5rem; }
     .hero-content { padding: 2rem 1.5rem 2.5rem; }
     .nav-logo { transform: translateY(-4px); }
+    .hero-cta {
+      padding: 10px 20px;
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      bottom: 1rem;
+    }
   }
