@@ -36,7 +36,7 @@
 
       <div class="hero-content">
         <div class="hero-eyebrow">
-          <span>Nanaimo, BC — Recovery House</span>
+          <span>Nanaimo, BC · Recovery House</span>
         </div>
 
         <h1 class="hero-title">
@@ -52,7 +52,7 @@
         <div class="hero-stats">
           <div class="stat-item">
             <div class="stat-number">10+</div>
-            <div class="stat-label">Years serving<br>our community</div>
+            <div class="stat-label">Years of experience<br>serving the community</div>
           </div>
           <div class="stat-item">
             <div class="stat-number">24/7</div>
@@ -87,10 +87,10 @@
             <h2 class="section-title reveal reveal-d1">Built on<br><em>compassion</em><br>and community.</h2>
 
             <p class="section-body reveal reveal-d2">
-              Kavic House Recovery was built on a simple belief — that every person deserves a real chance at a healthy, meaningful life free from addiction. We're not just a place to stay; we're a structured community where residents find accountability, connection, and hope during one of life's most challenging transitions.
+              Kavic House Recovery was built on a simple belief: that every person deserves a real chance at a healthy, meaningful life free from addiction. We're not just a place to stay; we're a structured community where residents find accountability, connection, and hope during one of life's most challenging transitions.
             </p>
             <p class="section-body reveal reveal-d3" style="margin-top:1rem;">
-              Our team includes individuals with lived experience in addiction and recovery. We know firsthand what this road looks like — the hard days, the small victories, and everything in between. We're here to walk it with you, one day at a time, with zero judgment and genuine care.
+              Our team includes individuals with lived experience in addiction and recovery. We know firsthand what this road looks like: the hard days, the small victories, and everything in between. We're here to walk it with you, one day at a time, with zero judgment and genuine care.
             </p>
 
             <div class="about-values reveal reveal-d4">
@@ -103,7 +103,7 @@
             </div>
 
             <div class="about-quote reveal reveal-d5">
-              <p>"Recovery doesn't happen in isolation — it happens in community. We created Kavic House to be the kind of place we wish had existed when we needed it most."</p>
+              <p>"Recovery doesn't happen in isolation; it happens in community. We created Kavic House to be the kind of place we wish had existed when we needed it most."</p>
             </div>
 
             <div class="about-cta reveal reveal-d6">
@@ -123,7 +123,7 @@
           </div>
           <div class="services-intro">
             <p>
-              Early recovery is about more than staying sober — it's about rebuilding a life. Our programs are designed to give residents the stability, skills, and community they need to move forward with confidence.
+              Early recovery is about more than staying sober; it's about rebuilding a life. Our programs are designed to give residents the stability, skills, and community they need to move forward with confidence.
             </p>
           </div>
         </div>
@@ -136,9 +136,7 @@
               </svg>
             </div>
             <h3>Sober Living Housing</h3>
-            <p>Safe, clean, and structured homes in Nanaimo where residents share space with peers in recovery. A drug- and alcohol-free environment built on mutual respect, clear expectations, and genuine support.</p>
-            <a href="#contact" class="service-card-link">Learn more →</a>
-          </div>
+            <p>Safe, clean, and structured homes in Nanaimo where residents share space with peers in recovery. A drug- and alcohol-free environment built on mutual respect, clear expectations, and genuine support.</p>          </div>
 
           <div class="service-card reveal reveal-d1">
             <div class="service-icon">
@@ -147,9 +145,7 @@
               </svg>
             </div>
             <h3>Peer Support &amp; Mentorship</h3>
-            <p>Connect with staff and housemates who have walked a similar road. When the hard days come — and they do — you'll have people around you who truly understand and who are invested in your success.</p>
-            <a href="#contact" class="service-card-link">Learn more →</a>
-          </div>
+            <p>Connect with staff and housemates who have walked a similar road. When the hard days come, and they do, you'll have people around you who truly understand and who are invested in your success.</p>          </div>
 
           <div class="service-card reveal reveal-d2">
             <div class="service-icon">
@@ -158,20 +154,16 @@
               </svg>
             </div>
             <h3>Life Skills Development</h3>
-            <p>Addiction often puts everyday life on hold. We help residents rebuild practical skills — managing finances, preparing meals, pursuing employment, and navigating daily responsibilities — so independence becomes real again.</p>
-            <a href="#contact" class="service-card-link">Learn more →</a>
-          </div>
+            <p>Addiction often puts everyday life on hold. We help residents rebuild practical skills: managing finances, preparing meals, pursuing employment, and navigating daily responsibilities, so independence becomes real again.</p>          </div>
 
           <div class="service-card reveal reveal-d1">
             <div class="service-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 0118 16.92z"/>
+                <path d="M16 4h2a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
               </svg>
             </div>
             <h3>Intake &amp; Case Support</h3>
-            <p>Not sure where to start? Our intake process is straightforward and judgment-free. We'll take time to understand your situation and help connect you — or your loved one — with the right level of support without delay.</p>
-            <a href="#contact" class="service-card-link">Learn more →</a>
-          </div>
+            <p>Not sure where to start? Our intake process is straightforward and judgment-free. We'll take time to understand your situation and help connect you, or your loved one, with the right level of support without delay.</p>          </div>
 
           <div class="service-card reveal reveal-d2">
             <div class="service-icon">
@@ -180,9 +172,7 @@
               </svg>
             </div>
             <h3>Structured Daily Programming</h3>
-            <p>Routine is one of the most powerful tools in early recovery. Residents follow a daily structure that includes house meetings, shared responsibilities, curfews, and attendance at recovery groups — creating the rhythm and stability that lasting sobriety requires.</p>
-            <a href="#contact" class="service-card-link">Learn more →</a>
-          </div>
+            <p>Routine is one of the most powerful tools in early recovery. Residents follow a daily structure that includes house meetings, shared responsibilities, curfews, and attendance at recovery groups, creating the rhythm and stability that lasting sobriety requires.</p>          </div>
 
           <div class="service-card reveal reveal-d3">
             <div class="service-icon">
@@ -191,9 +181,7 @@
               </svg>
             </div>
             <h3>Family &amp; Community Resources</h3>
-            <p>Addiction affects the whole family, not just the individual. We connect residents and their loved ones with Nanaimo-area resources, referrals to treatment providers, and guidance at every stage of the recovery journey.</p>
-            <a href="#contact" class="service-card-link">Learn more →</a>
-          </div>
+            <p>Addiction affects the whole family, not just the individual. We connect residents and their loved ones with Nanaimo-area resources, referrals to treatment providers, and guidance at every stage of the recovery journey.</p>          </div>
         </div>
       </div>
     </section>
@@ -201,7 +189,7 @@
     <div class="testimonial-band">
       <blockquote>
         <p>"Asking for help was the hardest thing I ever did. Kavic House gave me the structure I needed, the community I didn't know I was missing, and the belief that a different life was actually possible."</p>
-        <cite>— Former Resident, Nanaimo BC</cite>
+        <cite>Former Resident, Nanaimo BC</cite>
       </blockquote>
     </div>
 
@@ -212,14 +200,14 @@
             <div class="section-label"><span>Contact Us</span></div>
             <h2>Ready to take the<br><em>first step?</em></h2>
             <p>
-              Reaching out is the hardest part. Whether you're looking for a spot for yourself or a loved one, we're here to answer your questions — no pressure, no judgment.
+              Reaching out is the hardest part. Whether you're looking for a spot for yourself or a loved one, we're here to answer your questions, no pressure, no judgment.
             </p>
 
             <div class="contact-details">
               <div class="contact-detail-item">
                 <div class="contact-detail-icon">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 0118 16.92z"/>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                   </svg>
                 </div>
                 <div class="contact-detail-text">
@@ -330,6 +318,8 @@
           <ul>
             <li><a href="tel:18334560711">Crisis Line BC</a></li>
             <li><a href="https://www.canada.ca/en/health-canada/services/substance-use/get-help-with-substance-use.html" target="_blank" rel="noopener noreferrer">Health Canada Resources</a></li>
+            <li><a href="https://www.aa.org" target="_blank" rel="noopener noreferrer">Alcoholics Anonymous (AA.org)</a></li>
+            <li><a href="https://www.na.org" target="_blank" rel="noopener noreferrer">Narcotics Anonymous (NA.org)</a></li>
             <li><a href="#contact">Intake Inquiry</a></li>
           </ul>
         </div>
