@@ -12,7 +12,7 @@ export default defineEventHandler(async (event) => {
   const to = process.env.CONTACT_EMAIL || 'cj@kavichouserecovery.ca'
 
   await resend.emails.send({
-    from: 'Kavic House Website <onboarding@resend.dev>',
+    from: 'Kavic House Recovery <admin@kavichouserecovery.ca>',
     to,
     replyTo: email,
     subject: `New inquiry from ${firstName} ${lastName}`,

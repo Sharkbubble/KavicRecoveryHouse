@@ -29,5 +29,5 @@ The site lives in a few files:
 
 ### Things to know
 
-- **The contact form posts to `/api/contact`.** `handleSubmit` in `pages/index.vue` calls the Nitro route, which sends mail through Resend. Requires `RESEND_API_KEY` (and optionally `CONTACT_EMAIL`) as env vars — see `README.md`. The `from` address is still Resend's test sender (`onboarding@resend.dev`); switch it to a branded address once the domain is verified in Resend.
+- **The contact form posts to `/api/contact`.** `handleSubmit` in `pages/index.vue` calls the Nitro route, which sends mail through Resend. Requires `RESEND_API_KEY` (and optionally `CONTACT_EMAIL`) as env vars — see `README.md`. The `from` address is `admin@kavichouserecovery.ca` (domain verified in Resend).
 - **Deployment is Vercel** via the Nitro `vercel` preset and `vercel.json` framework detection. Logo asset is `public/KavicHouseLogo_v2.jpeg`, referenced as `/KavicHouseLogo_v2.jpeg`.

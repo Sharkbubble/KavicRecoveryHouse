@@ -68,4 +68,4 @@ CONTACT_EMAIL=you@example.com
 
 The form at `#contact` posts to `server/api/contact.post.ts`, which sends an email via Resend with the visitor's email set as the reply-to address.
 
-The sender (`from`) is currently Resend's shared test address, `onboarding@resend.dev`, which requires no domain verification. Once `kavichouserecovery.ca` is verified in Resend, update the `from` field in `server/api/contact.post.ts` to a branded address (e.g. `Cj@kavichouserecovery.ca`) and redeploy.
+The sender (`from`) is `admin@kavichouserecovery.ca`, sent from the `kavichouserecovery.ca` domain verified in Resend. To change it, update the `from` field in `server/api/contact.post.ts`.
