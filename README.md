@@ -53,7 +53,7 @@ Set these in **Vercel → Project Settings → Environment Variables** (and in a
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `RESEND_API_KEY` | Yes | API key from the [Resend dashboard](https://resend.com). Without it the contact form returns an error. |
-| `CONTACT_EMAIL` | No | Inbox that receives inquiries. Defaults to `cj@kavichouserecovery.ca`. |
+| `CONTACT_EMAIL` | No | Inbox that receives inquiries. Defaults to `admin@kavichouserecovery.ca`. |
 
 Example `.env`:
 
