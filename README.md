@@ -17,7 +17,7 @@ pages/index.vue            The entire page (nav, hero, about, services, contact,
 assets/css/site.css        All styling — global, design tokens in :root
 server/api/contact.post.ts Server route that emails contact-form submissions via Resend
 nuxt.config.ts             Head/meta, fonts, global CSS, Vercel Nitro preset
-public/                    Static assets (logo, hero images)
+public/                    Static assets (logo, hero image)
 ```
 
 The whole site is one page; in-page anchors (`#home`, `#about`, `#services`, `#contact`) handle navigation. There is no database or CMS.
