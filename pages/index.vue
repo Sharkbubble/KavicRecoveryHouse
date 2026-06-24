@@ -188,8 +188,8 @@
 
     <div class="testimonial-band">
       <blockquote>
-        <p>"Asking for help was the hardest thing I ever did. Kavic House gave me the structure I needed, the community I didn't know I was missing, and the belief that a different life was actually possible."</p>
-        <cite>Former Resident, Nanaimo BC</cite>
+        <p>"CJ was the manager at the recovery house I went to when I first left treatment. I was apprehensive about moving into a recovery house, but looking back now it was one of the best suggestions I listened to. Under the guidance of CJ and the 12-step community, having the opportunity to build and expand the skills and lessons I learned in treatment saved my life. CJ is kind, compassionate, and supportive, and he provides honest and thorough feedback. I've since moved out on my own and have continued to build on my foundation and strengthen my recovery capital. CJ is still a good friend, and someone I know I can reach out to when I need help and guidance. If you're serious about your recovery, I highly recommend moving into Kavic Recovery House"</p>
+        <cite>Tony, Former Resident, Nanaimo BC</cite>
       </blockquote>
     </div>
 
